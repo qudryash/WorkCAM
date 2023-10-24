@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80A1E882AE808C2005315CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A1E872AE808C2005315CA /* AppDelegate.swift */; };
+		C80A1E8A2AE808C2005315CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A1E892AE808C2005315CA /* SceneDelegate.swift */; };
+		C80A1E8C2AE808C2005315CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A1E8B2AE808C2005315CA /* ViewController.swift */; };
+		C80A1E8F2AE808C2005315CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80A1E8D2AE808C2005315CA /* Main.storyboard */; };
+		C80A1E922AE808C2005315CA /* WorkCAM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C80A1E902AE808C2005315CA /* WorkCAM.xcdatamodeld */; };
+		C80A1E942AE808C3005315CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80A1E932AE808C3005315CA /* Assets.xcassets */; };
+		C80A1E972AE808C3005315CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80A1E952AE808C3005315CA /* LaunchScreen.storyboard */; };
+		C80A1EA22AE808C3005315CA /* WorkCAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A1EA12AE808C3005315CA /* WorkCAMTests.swift */; };
+		C80A1EAC2AE808C3005315CA /* WorkCAMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A1EAB2AE808C3005315CA /* WorkCAMUITests.swift */; };
+		C80A1EAE2AE808C3005315CA /* WorkCAMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A1EAD2AE808C3005315CA /* WorkCAMUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C80A1E9E2AE808C3005315CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80A1E7C2AE808C2005315CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80A1E832AE808C2005315CA;
+			remoteInfo = WorkCAM;
+		};
+		C80A1EA82AE808C3005315CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80A1E7C2AE808C2005315CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80A1E832AE808C2005315CA;
+			remoteInfo = WorkCAM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C80A1E842AE808C2005315CA /* WorkCAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkCAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80A1E872AE808C2005315CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C80A1E892AE808C2005315CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C80A1E8B2AE808C2005315CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C80A1E8E2AE808C2005315CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C80A1E912AE808C2005315CA /* WorkCAM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkCAM.xcdatamodel; sourceTree = "<group>"; };
+		C80A1E932AE808C3005315CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C80A1E962AE808C3005315CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C80A1E982AE808C3005315CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80A1E9D2AE808C3005315CA /* WorkCAMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkCAMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80A1EA12AE808C3005315CA /* WorkCAMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCAMTests.swift; sourceTree = "<group>"; };
+		C80A1EA72AE808C3005315CA /* WorkCAMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkCAMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80A1EAB2AE808C3005315CA /* WorkCAMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCAMUITests.swift; sourceTree = "<group>"; };
+		C80A1EAD2AE808C3005315CA /* WorkCAMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCAMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C80A1E812AE808C2005315CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80A1E9A2AE808C3005315CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80A1EA42AE808C3005315CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C80A1E7B2AE808C2005315CA = {
+			isa = PBXGroup;
+			children = (
+				C80A1E862AE808C2005315CA /* WorkCAM */,
+				C80A1EA02AE808C3005315CA /* WorkCAMTests */,
+				C80A1EAA2AE808C3005315CA /* WorkCAMUITests */,
+				C80A1E852AE808C2005315CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C80A1E852AE808C2005315CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C80A1E842AE808C2005315CA /* WorkCAM.app */,
+				C80A1E9D2AE808C3005315CA /* WorkCAMTests.xctest */,
+				C80A1EA72AE808C3005315CA /* WorkCAMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C80A1E862AE808C2005315CA /* WorkCAM */ = {
+			isa = PBXGroup;
+			children = (
+				C80A1E872AE808C2005315CA /* AppDelegate.swift */,
+				C80A1E892AE808C2005315CA /* SceneDelegate.swift */,
+				C80A1E8B2AE808C2005315CA /* ViewController.swift */,
+				C80A1E8D2AE808C2005315CA /* Main.storyboard */,
+				C80A1E932AE808C3005315CA /* Assets.xcassets */,
+				C80A1E952AE808C3005315CA /* LaunchScreen.storyboard */,
+				C80A1E982AE808C3005315CA /* Info.plist */,
+				C80A1E902AE808C2005315CA /* WorkCAM.xcdatamodeld */,
+			);
+			path = WorkCAM;
+			sourceTree = "<group>";
+		};
+		C80A1EA02AE808C3005315CA /* WorkCAMTests */ = {
+			isa = PBXGroup;
+			children = (
+				C80A1EA12AE808C3005315CA /* WorkCAMTests.swift */,
+			);
+			path = WorkCAMTests;
+			sourceTree = "<group>";
+		};
+		C80A1EAA2AE808C3005315CA /* WorkCAMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C80A1EAB2AE808C3005315CA /* WorkCAMUITests.swift */,
+				C80A1EAD2AE808C3005315CA /* WorkCAMUITestsLaunchTests.swift */,
+			);
+			path = WorkCAMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C80A1E832AE808C2005315CA /* WorkCAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80A1EB12AE808C3005315CA /* Build configuration list for PBXNativeTarget "WorkCAM" */;
+			buildPhases = (
+				C80A1E802AE808C2005315CA /* Sources */,
+				C80A1E812AE808C2005315CA /* Frameworks */,
+				C80A1E822AE808C2005315CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkCAM;
+			productName = WorkCAM;
+			productReference = C80A1E842AE808C2005315CA /* WorkCAM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C80A1E9C2AE808C3005315CA /* WorkCAMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80A1EB42AE808C3005315CA /* Build configuration list for PBXNativeTarget "WorkCAMTests" */;
+			buildPhases = (
+				C80A1E992AE808C3005315CA /* Sources */,
+				C80A1E9A2AE808C3005315CA /* Frameworks */,
+				C80A1E9B2AE808C3005315CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80A1E9F2AE808C3005315CA /* PBXTargetDependency */,
+			);
+			name = WorkCAMTests;
+			productName = WorkCAMTests;
+			productReference = C80A1E9D2AE808C3005315CA /* WorkCAMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C80A1EA62AE808C3005315CA /* WorkCAMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80A1EB72AE808C3005315CA /* Build configuration list for PBXNativeTarget "WorkCAMUITests" */;
+			buildPhases = (
+				C80A1EA32AE808C3005315CA /* Sources */,
+				C80A1EA42AE808C3005315CA /* Frameworks */,
+				C80A1EA52AE808C3005315CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80A1EA92AE808C3005315CA /* PBXTargetDependency */,
+			);
+			name = WorkCAMUITests;
+			productName = WorkCAMUITests;
+			productReference = C80A1EA72AE808C3005315CA /* WorkCAMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C80A1E7C2AE808C2005315CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C80A1E832AE808C2005315CA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C80A1E9C2AE808C3005315CA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C80A1E832AE808C2005315CA;
+					};
+					C80A1EA62AE808C3005315CA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C80A1E832AE808C2005315CA;
+					};
+				};
+			};
+			buildConfigurationList = C80A1E7F2AE808C2005315CA /* Build configuration list for PBXProject "WorkCAM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C80A1E7B2AE808C2005315CA;
+			productRefGroup = C80A1E852AE808C2005315CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C80A1E832AE808C2005315CA /* WorkCAM */,
+				C80A1E9C2AE808C3005315CA /* WorkCAMTests */,
+				C80A1EA62AE808C3005315CA /* WorkCAMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C80A1E822AE808C2005315CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80A1E972AE808C3005315CA /* LaunchScreen.storyboard in Resources */,
+				C80A1E942AE808C3005315CA /* Assets.xcassets in Resources */,
+				C80A1E8F2AE808C2005315CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80A1E9B2AE808C3005315CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80A1EA52AE808C3005315CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C80A1E802AE808C2005315CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80A1E922AE808C2005315CA /* WorkCAM.xcdatamodeld in Sources */,
+				C80A1E8C2AE808C2005315CA /* ViewController.swift in Sources */,
+				C80A1E882AE808C2005315CA /* AppDelegate.swift in Sources */,
+				C80A1E8A2AE808C2005315CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80A1E992AE808C3005315CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80A1EA22AE808C3005315CA /* WorkCAMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80A1EA32AE808C3005315CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80A1EAC2AE808C3005315CA /* WorkCAMUITests.swift in Sources */,
+				C80A1EAE2AE808C3005315CA /* WorkCAMUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C80A1E9F2AE808C3005315CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80A1E832AE808C2005315CA /* WorkCAM */;
+			targetProxy = C80A1E9E2AE808C3005315CA /* PBXContainerItemProxy */;
+		};
+		C80A1EA92AE808C3005315CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80A1E832AE808C2005315CA /* WorkCAM */;
+			targetProxy = C80A1EA82AE808C3005315CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C80A1E8D2AE808C2005315CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80A1E8E2AE808C2005315CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C80A1E952AE808C3005315CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80A1E962AE808C3005315CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C80A1EAF2AE808C3005315CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C80A1EB02AE808C3005315CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C80A1EB22AE808C3005315CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW8TYMM7W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkCAM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = noname.WorkCAM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C80A1EB32AE808C3005315CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW8TYMM7W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkCAM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = noname.WorkCAM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C80A1EB52AE808C3005315CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW8TYMM7W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = noname.WorkCAMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkCAM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkCAM";
+			};
+			name = Debug;
+		};
+		C80A1EB62AE808C3005315CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW8TYMM7W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = noname.WorkCAMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkCAM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkCAM";
+			};
+			name = Release;
+		};
+		C80A1EB82AE808C3005315CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW8TYMM7W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = noname.WorkCAMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkCAM;
+			};
+			name = Debug;
+		};
+		C80A1EB92AE808C3005315CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW8TYMM7W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = noname.WorkCAMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkCAM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C80A1E7F2AE808C2005315CA /* Build configuration list for PBXProject "WorkCAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80A1EAF2AE808C3005315CA /* Debug */,
+				C80A1EB02AE808C3005315CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80A1EB12AE808C3005315CA /* Build configuration list for PBXNativeTarget "WorkCAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80A1EB22AE808C3005315CA /* Debug */,
+				C80A1EB32AE808C3005315CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80A1EB42AE808C3005315CA /* Build configuration list for PBXNativeTarget "WorkCAMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80A1EB52AE808C3005315CA /* Debug */,
+				C80A1EB62AE808C3005315CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80A1EB72AE808C3005315CA /* Build configuration list for PBXNativeTarget "WorkCAMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80A1EB82AE808C3005315CA /* Debug */,
+				C80A1EB92AE808C3005315CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C80A1E902AE808C2005315CA /* WorkCAM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C80A1E912AE808C2005315CA /* WorkCAM.xcdatamodel */,
+			);
+			currentVersion = C80A1E912AE808C2005315CA /* WorkCAM.xcdatamodel */;
+			path = WorkCAM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C80A1E7C2AE808C2005315CA /* Project object */;
+}
